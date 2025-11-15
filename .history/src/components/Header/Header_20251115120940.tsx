@@ -11,7 +11,7 @@ const Header = () => {
 					<h1
 						className="text-2xl font-semibold"
 						aria-label="App Name">
-						Counter State
+						NSP App
 					</h1>
 				</Link>
 

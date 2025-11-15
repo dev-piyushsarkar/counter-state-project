@@ -26,13 +26,11 @@ const page = () => {
 					<div className="text-center text-xl">
 						Count: <span className="font-bold">0</span>
 					</div>
-					<div className="grid grid-cols-2 gap-4">
-						<Button
-							className="cursor-pointer"
-							variant={"destructive"}>
+					<div className="">
+						<Button variant={"destructive"}>
 							<MinusCircle /> Minus 1
 						</Button>
-						<Button className="cursor-pointer">
+						<Button>
 							<PlusCircleIcon /> Plus 1
 						</Button>
 					</div>
